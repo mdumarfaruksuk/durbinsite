@@ -1,20 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DurbinSite</title>
-    <link rel="stylesheet" href="style.css">
-    <script type='text/javascript' src='//moustacheoverloadwar.com/5f/58/29/5f5829ecacef9d917ce45f6d681539cf.js'></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DurbinSite</title>
+  <style>
+    :root {
+      --bg-color: #121212;
+      --text-color: #ffffff;
+      --accent-color: #1da1f2;
+      --card-bg: #1e1e1e;
+      --font-main: 'Segoe UI', sans-serif;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      font-family: var(--font-main);
+      line-height: 1.6;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    header {
+      background: var(--card-bg);
+      padding: 2rem;
+      text-align: center;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      color: var(--accent-color);
+    }
+
+    header p {
+      font-size: 1rem;
+      margin-top: 0.5rem;
+      color: #ccc;
+    }
+
+    main {
+      flex: 1;
+      padding: 2rem;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    .twitter-section {
+      background: var(--card-bg);
+      padding: 1rem;
+      border-radius: 10px;
+      box-shadow: 0 0 10px #000;
+    }
+
+    footer {
+      background: var(--card-bg);
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #aaa;
+    }
+
+    a {
+      color: var(--accent-color);
+    }
+  </style>
 </head>
 <body>
-    <header>
-        <h1>Welcome to DurbinSite</h1>
-    </header>
+  <header>
+    <h1>🎥 DurbinSite</h1>
+    <p>Your source for the latest live streams and updates</p>
+  </header>
 
-    <iframe src="https://newsdigestcap.com/d02.html" width="640" height="360" allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" frameborder="0" allowfullscreen></iframe>
-    <footer>
-        <p>&copy; 2025 DurbinSite. All Rights Reserved.</p>
-    </footer>
+  <main>
+    <section class="twitter-section">
+      <blockquote class="twitter-tweet" data-media-max-width="560">
+        <p lang="zxx" dir="ltr">
+          <a href="https://t.co/aV7IUO64Il">https://t.co/aV7IUO64Il</a>
+        </p>
+        — Durbin Stream (@durbinstream24)
+        <a href="https://twitter.com/durbinstream24/status/1904517068164358493?ref_src=twsrc%5Etfw">
+          March 25, 2025
+        </a>
+      </blockquote>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 DurbinSite. All Rights Reserved.</p>
+  </footer>
+
+  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </body>
 </html>
